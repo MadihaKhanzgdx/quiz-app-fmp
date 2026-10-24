@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppin',sans-serif;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+/* body{
+    background:  #001e4d;
+} */
+ body {
+  background-image: url("https://images.unsplash.com/photo-1641750675317-a747a97937fe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880");
+  background-repeat: no-repeat;  
+  background-size: cover;            
+  background-position: center;     
+  background-attachment: fixed;      
+}
+
+.app{
+    background: url("https://plus.unsplash.com/premium_photo-1694527058233-5aff2d2bed27?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332");
+     background-repeat: no-repeat; 
+       background-size: cover;    
+       background-position: center; 
+         background-attachment: fixed;     
+    width: 90%;
+    max-width: 600%;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 2px 0;
+}
+.quiz h2{
+    font-size: 18px;
+     color: white;
+    font-weight: 600;
+}
+.btn{
+    background: #222;
+    color: red;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222 ;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover:not([disabled]){
+    background: red;
+    color: black;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: red;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px solid 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+.correct{
+    background:white;
+     color: red;
+     font-weight: 500;
+}
+.incorrect{
+    background: red;
+    color: white;
+}
